@@ -1,0 +1,149 @@
+:root{
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+h1,
+h2,
+h3,h4 {
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 5.4rem;
+    color: cadetblue;
+    margin-bottom: 5rem;
+}
+h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* for turning the contianer div to a flex box*/
+    display: flex;
+    /*for aligning object horizontally in a flex box*/
+    justify-content: center;
+    /*for aligning object vertically in a flex box*/
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.container > *{
+    width: 100%;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+.btn{
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    border: 0.1rem solid cadetblue;
+    margin-bottom: 1rem;
+    color: cadetblue;
+    padding: 1rem 0;
+    width: 20rem;
+    background-color: white;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(15, 182, 182,0.5);
+    transform: translateY(0.1rem);
+    transition: transform 150ms;
+}
+.btn[disabled]{
+    cursor: not-allowed;
+    transform: none;
+    transition: none;
+    box-shadow: none;
+    color: #2b43446c;
+    border: 0.1rem solid  #2b43446c;
+}
+.btn[disabled]:hover{
+    cursor: not-allowed;
+}
+.btn-small{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border: 0.1rem solid cadetblue;
+    margin-bottom: 1rem;
+    color: cadetblue;
+    padding: 1rem 0;
+    width: 15rem;
+    background-color: white;
+}
+.btn-small:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(15, 182, 182,0.5);
+    transform: translateY(0.1rem);
+    transition: transform 150ms;
+}
+.btn-small[disabled]{
+    cursor: not-allowed;
+    transform: none;
+    transition: none;
+    box-shadow: none;
+    color: #2b43446c;
+    border: 0.1rem solid  #2b43446c;
+}
+.btn-small[disabled]:hover{
+    cursor: not-allowed;
+}
+/*FORMS*/
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#username{
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border: none;
+    width: 20rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(33, 152, 156, 0.589);
+    font-size: 1.8rem;
+    color: cadetblue;
+    
+}
+.subjectselect{
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border: none;
+    width: 30rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(33, 152, 156, 0.589);
+    font-size: 1.8rem;
+    color: cadetblue;
+}
+

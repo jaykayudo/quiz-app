@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Quiz - Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex-center flex-column">
+            <h2 style="margin-bottom: 0;">Score</h2>
+            <h1 id="score" style="margin-top: 0;">0</h1>
+            <form action="">
+                <input type="text" name="username" id="username" placeholder="Username">
+                <button type="submit" id="savebutton" class="btn" onclick="savehighscore(event)"
+                    disabled>
+                    Save
+                </button>
+            </form>
+            
+            
+            <a href="\checkanswers.html" class="btn">Check Answers</a>
+            <a href="\game.html" class="btn">Play Again</a>
+            <a href="\index.html" class="btn">Home</a>
+        </div>
+    </div>
+<script src="end.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Quiz - Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container" style="margin-top: 5rem;">
+        <div id="loader"></div>
+        <div id="game" class="justify-center flex-column hidden">
+            <div class="hud" style="margin-bottom: 3rem;">
+            <div class="hud-items"><a href="/end.html" class="btn" style="padding: 1.5rem 5rem;" >Back</a></div>
+            <div class="hud-items"><h3 id="Quest"></h3></div>
+            </div>
+            <h2 id="question">
+                What is the Answer to this Question
+            </h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice One</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice Two</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice Three</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice Four</p>
+            </div>
+            <div class="hud">
+               <div class="hud-items"><button id="backbtn" class="btn-small" onclick="back()" disabled>Previous</button></div>
+               <div class="hud-items"><button id="frontbtn" class="btn-small" onclick="forward()">Next</button></div>
+            </div>
+        </div>
+    </div>
+<script src="checkanswers.js"></script>
+</body>
+</html>

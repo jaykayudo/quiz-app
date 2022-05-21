@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Quiz - Choose a Field</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex-center flex-column">
+            <select id="subjectselect" class="subjectselect">
+                <option value="">Choose a Field</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="English">Science</option>
+                <option value="Computer">Computer</option>
+                <option value="Science">General Knowledge</option>
+            </select>
+            <button class="btn" id="btn" onclick="startquiz()" disabled>Start Quiz </button>
+        </div>
+    </div>
+   <script>
+        var sel = document.getElementById('subjectselect');
+        var btn = document.getElementById('btn');
+        sel.onchange = function(){
+            btn.disabled = !sel.value;
+        }
+        function startquiz(){
+            localStorage.setItem('Quiz-Type',sel.value);
+            window.location.assign('game.html')
+        }
+    </script>
+</body>
+</html>

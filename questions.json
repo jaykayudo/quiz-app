@@ -1,0 +1,120 @@
+[
+    {
+        "question": "inside which html tag do we put Javascript?",
+        "choice1": "<script>",
+        "choice2": "<javascript>",
+        "choice3": "<jscript>",
+        "choice4": "<js>",
+        "answer": 1
+        
+    },
+    {
+        "question": "How do we reference javascript files?",
+        "choice1": "<script file='xxx.js'>",
+        "choice2": "<script href='xxx.jscript'>",
+        "choice3": "<script src='xxx.jscript'>",
+        "choice4": "<script src ='xxx.js'>",
+        "answer": 4
+        
+    },
+    {
+        "question": "what html tag is use for creating links to another page in html?",
+        "choice1": "<i>",
+        "choice2": "<link>",
+        "choice3": "<a>",
+        "choice4": "<file>",
+        "answer": 3
+        
+    },
+    {
+        "question": "what is the full meaning of css ?",
+        "choice1": "cross style sheet",
+        "choice2": "cascading style sheet",
+        "choice3": "cascading styling sheet",
+        "choice4": "cross styling sheet",
+        "answer": 2
+        
+    },
+    {
+        "question": "what is the javascript code to alert 'Hello World' in Html",
+        "choice1":"alertBox('Hello World')",
+        "choice2": "alert('Hello World')",
+        "choice3": "msg('Hello World')",
+        "choice4": "msgBox('Hello World')",
+        "answer": 2
+        
+    },
+    {
+        "question": "which of this parameter is not used in css",
+        "choice1":"cm",
+        "choice2": "px",
+        "choice3": "em",
+        "choice4": "rem",
+        "answer": 1
+        
+    },
+    {
+        "question": "Which is not a valid way of creating arrays ",
+        "choice1": "var a = new Array( )",
+        "choice2": "var a = [ ]",
+        "choice3": "var a = { }",
+        "choice4": "const a = [ ]",
+        "answer": 3
+        
+    },
+    {
+        "question": "which is not a html tag",
+        "choice1":"<a>",
+        "choice2": "<address>",
+        "choice3": "<i>",
+        "choice4": "<c>",
+        "answer": 4
+        
+    },
+    {
+        "question": "which is used for confirmation of action in javascript",
+        "choice1":"confirm('action')",
+        "choice2": "confirmAction('action')",
+        "choice3": "conAction('action')",
+        "choice4": "askQuestion('action')",
+        "answer": 1
+        
+    },
+    {
+        "question": "what html tag is use for css codes in html",
+        "choice1":"<style>",
+        "choice2": "<css>",
+        "choice3": "<stylesheet>",
+        "choice4": "<design>",
+        "answer": 1
+        
+    },
+    {
+        "question": "which of the following is use for creating animation in css",
+        "choice1":"@animation",
+        "choice2": "@frame",
+        "choice3": "@keyframes",
+        "choice4": "@keyframe",
+        "answer": 3
+    },
+    {
+        "question": "What is the full meaning of JSON",
+        "choice1":"Javascript object Notification",
+        "choice2": "Javascript object Note",
+        "choice3": "Javascript object Notation",
+        "choice4": "Javascripting object Notation",
+        "answer": 3
+        
+    },
+    {
+        "question": "how do you affect th hover action of elements through css",
+        "choice1":"::hover",
+        "choice2": ":hover",
+        "choice3": ">hover",
+        "choice4": ":>hover",
+        "answer": 2
+        
+    }
+
+
+]
